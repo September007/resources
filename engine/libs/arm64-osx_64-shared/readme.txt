@@ -1,0 +1,7 @@
+This folder contains D-Type Engines in the form of 64-bit shared libraries for macOS arm64 (Apple Silicon)
+
+* libdtypestd.8.2.1.dylib - D-Type Standard Engine
+* libdtypepwr.8.2.1.dylib - D-Type Power Engine
+* libdtypetxt.8.2.1.dylib - D-Type Unicode Text Module
+* libdtypelay.8.2.1.dylib - D-Type Text Layout Extension (using HarfBuzz)
+* libdtypeaux.8.2.1.dylib - D-Type D-Type External Format Plugin
