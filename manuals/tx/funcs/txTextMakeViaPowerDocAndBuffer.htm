@@ -1,0 +1,121 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+<title>D-Type Manual</title>
+<link rel="stylesheet" type="text/css" href="../../common/include/style_001.css" />
+</head>
+
+<body>
+<a href="../../common/manual/index.htm"><img src="../../common/images/index.gif" border="0" alt="Index" /></a><br />
+
+<h1>C/C++ Functions</h1>
+
+<h2>txTextMakeViaPowerDocAndBuffer</h2><div class="box_prototype"><strong>
+DT_SLONG txTextMakeViaPowerDocAndBuffer(DT_TXDOC text_doc, DT_PDDOC power_doc, DT_SLONG nr_of_chars, const DT_UBYTE* buffer, DT_ID_SWORD buffer_format, DT_SWORD unicode_flags, const DT_TX_TEXTFLOW_AREA* area, const DT_TX_DEFAULT_ATTRIBS* attribs, const DT_STREAM_DESC* fontmap_sd, DT_SWORD flags)</strong></div><br /><strong>Short Description:</strong> <em>Make text document - via PowerDoc and buffer</em><br /><br />
+
+<p>The txTextMakeViaPowerDocAndBuffer function embeds a Unicode <a href="../../common/workshop/pd_frames.htm">text flow</a> into an existing Power Engine document (i.e. a document created using D-Type Power Engine and its API functions) by reading a plain text file stored in a memory buffer. This function optionally performs Unicode's implicit bidirectional reordering algorithm (BiDi) and auto-detects Unicode scripts (such as Latin, Arabic, Thai etc.) so that complex scripts can be shaped properly.</p>
+
+<p>This function must be called once per text document instance, and only after a successful call to <a href="txTextIni.htm">txTextIni</a>. Applications that wish to embed another Unicode text flow using this function must first destroy the existing text document instance by calling <a href="txTextExt.htm">txTextExt</a> and then create a new one by calling <a href="txTextIni.htm">txTextIni</a>.</p>
+
+<p><strong>Note:</strong> txTextMakeViaPowerDocAndBuffer is an advanced and specialized function. Its primary users are developers who wish to use D-Type Unicode Text Module to embed text flows into their D-Type Power Engine documents. In this use case scenario, the associated text document instance (<em>text_doc</em>) is usually short-lived while the Power Engine document (<em>power_doc</em>) is long-lived. With that in mind, the txTextMakeViaPowerDocAndBuffer function is rather different from, and should not be confused with <a href="txTextMakeViaStream.htm">txTextMakeViaStream</a>, <a href="txTextMakeViaBuffer.htm">txTextMakeViaBuffer</a> and <a href="txTextMakeViaPowerDoc.htm">txTextMakeViaPowerDoc</a>.</p>
+
+<h3>Parameters</h3>
+
+<table class="table_data" summary="Description of function parameters">
+<tr><th>Parameter</th><th>Description</th></tr>
+
+<tr><td>
+<p><em>text_doc</em></p>
+</td><td>
+<p>Handle of the associated text document instance.</p>
+</td></tr>
+
+<tr><td>
+<p><em>power_doc</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaPowerDoc.htm">txTextMakeViaPowerDoc</a>.</p>
+</td></tr>
+
+<tr><td>
+<p><em>nr_of_chars</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaBuffer.htm">txTextMakeViaBuffer</a>.</p>
+</td></tr>
+
+<tr><td>
+<p><em>buffer</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaBuffer.htm">txTextMakeViaBuffer</a>.</p>
+</td></tr>
+
+<tr><td>
+<p><em>buffer_format</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaBuffer.htm">txTextMakeViaBuffer</a>.</p>
+</td></tr>
+
+<tr><td>
+<p><em>unicode_flags</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaStream.htm">txTextMakeViaStream</a>.</p>
+</td></tr>
+
+<tr><td>
+<p><em>area</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaStream.htm">txTextMakeViaStream</a>.</p>
+</td></tr>
+
+<tr><td>
+<p><em>attribs</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaPowerDocAndStream.htm">txTextMakeViaPowerDocAndStream</a>.</p>
+</td></tr>
+
+<tr><td>
+<p><em>fontmap_sd</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaStream.htm">txTextMakeViaStream</a>.</p>
+</td></tr>
+
+<tr><td>
+<p><em>flags</em></p>
+</td><td>
+<p>See <a href="txTextMakeViaPowerDocAndStream.htm">txTextMakeViaPowerDocAndStream</a>.</p>
+</td></tr>
+
+</table>
+
+
+<h3>Return Value</h3>
+<p>See <a href="txTextMakeViaPowerDocAndStream.htm">txTextMakeViaPowerDocAndStream</a>.</p>
+
+<h3>Comments</h3>
+<p>See <a href="txTextMakeViaStream.htm">txTextMakeViaStream</a>.</p>
+
+
+<h3>Note 1</h3>
+<p>See <a href="../../dt/manual/streams.htm">How To Use D-Type Streams And Stream Macros</a>.</p>
+
+<h3>Note 2</h3>
+<p>See our <a href="../../dt/manual/fpaths.htm">notes regarding file based streams</a>.</p>
+
+<h3>Note 3</h3>
+<p>See the <a href="txMakeCachedFontmap.htm">txMakeCachedFontmap</a> function.</p>
+
+
+<h3>Related Functions</h3>
+<p>
+<a href="txTextMakeViaStream.htm">txTextMakeViaStream</a>, <a href="txTextMakeViaPowerDoc.htm">txTextMakeViaPowerDoc</a>
+</p>
+
+
+
+&nbsp;
+<br />
+<br />
+<a href="../../common/manual/index.htm"><img src="../../common/images/index.gif" border="0" alt="Index" /></a><br />&nbsp;
+</body>
+</html>

@@ -1,0 +1,82 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+<title>D-Type Manual</title>
+<link rel="stylesheet" type="text/css" href="../../common/include/style_001.css" />
+</head>
+
+<body>
+<a href="../../common/manual/index.htm"><img src="../../common/images/index.gif" border="0" alt="Index" /></a><br />
+
+<h1>C/C++ Functions</h1>
+
+<h2>txTextAddFlowPlus</h2><div class="box_prototype"><strong>
+DT_SWORD txTextAddFlowPlus(DT_TXDOC text_doc, DT_ID_SLONG obj, DT_SLONG nr_of_areas, const DT_TX_TEXTFLOW_AREA areas[], const DT_SLONG pages[], DT_SWORD reserved)</strong></div><br /><strong>Short Description:</strong> <em>Add textflow areas for the text document (enhanced)</em><br /><br />
+
+<p>This function adds a new set of PowerDoc images (also called text flow images) to hold a text flow across linked textflow areas.</p>
+
+<p><strong>Note:</strong> This is an advanced and specialized function that can be called after <a href="txTextMakeViaPowerDocAndStream.htm">txTextMakeViaPowerDocAndStream</a> or <a href="txTextMakeViaPowerDocAndBuffer.htm">txTextMakeViaPowerDocAndBuffer</a>. Its primary users are developers who wish to use D-Type Unicode Text Module to embed text flow images into their D-Type Power Engine documents. In this use case scenario, the associated text document instance (<em>text_doc</em>) is usually short-lived while the Power Engine document (<em>power_doc</em>) is long-lived. With that in mind, the txTextAddFlowPlus function is rather different from, and should not be confused with <a href="txTextSetFlowPlus.htm">txTextSetFlowPlus</a>.</p>
+
+
+<h3>Parameters</h3>
+
+<table class="table_data" summary="Description of function parameters">
+<tr><th>Parameter</th><th>Description</th></tr>
+
+<tr><td>
+<p><em>text_doc</em></p>
+</td><td>
+<p>Handle of the associated text document instance.</p>
+</td></tr>
+
+<tr><td>
+<p><em>obj</em></p>
+</td><td>
+<p>Index of the root <a href="../../pd/objects/106.htm">Rich Text Area</a> PowerDoc object that holds the text. This object must contain at minimum the <a href="../../pd/objects/106.htm#pdTextFragmentPtr">pdTextFragmentPtr</a> PowerDoc property.</p>
+</td></tr>
+
+<tr><td>
+<p><em>nr_of_areas</em></p>
+</td><td>
+<p>See <a href="txTextSetFlowPlus.htm">txTextSetFlowPlus</a></p>
+</td></tr>
+
+<tr><td>
+<p><em>areas</em></p>
+</td><td>
+<p>See <a href="txTextSetFlowPlus.htm">txTextSetFlowPlus</a></p>
+</td></tr>
+
+<tr><td>
+<p><em>pages</em></p>
+</td><td>
+<p>See <a href="txTextSetFlowPlus.htm">txTextSetFlowPlus</a></p>
+</td></tr>
+
+
+<tr><td>
+<p><em>reserved</em></p>
+</td><td>
+<p>Reserved for future use. Must be set to 0.</p>
+</td></tr>
+
+</table>
+
+
+<h3>Return Value</h3>
+<p>If the function was successful, the return value is 1. Otherwise, the function returns 0.</p>
+
+
+<h3>Comments</h3>
+<p>Each textflow area image can have its own independent position, size, 2D perspective transformation matrix and other parameters as defined by the <a href="../manual/txstructs1.htm#DT_TX_TEXTFLOW_AREA">DT_TX_TEXTFLOW_AREA</a> structure.</p>
+
+
+
+&nbsp;
+<br />
+<br />
+<a href="../../common/manual/index.htm"><img src="../../common/images/index.gif" border="0" alt="Index" /></a><br />&nbsp;
+</body>
+</html>

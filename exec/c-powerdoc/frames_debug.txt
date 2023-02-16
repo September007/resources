@@ -1,0 +1,33 @@
+There are 1 text flow(s) on this page.
+--- Beginning of text flow 0 ---
+Text flow 0 corresponds to PowerDoc image 0
+There are 25 frame(s) in this text flow
+  frame #0 is for character #0. Its bounding box is XMin=100, YMin=43, XMax=131, YMax=117
+  frame #1 is for character #1. Its bounding box is XMin=131, YMin=43, XMax=155, YMax=117
+  frame #2 is for character #2. Its bounding box is XMin=155, YMin=43, XMax=187, YMax=117
+  frame #3 is for character #3. Its bounding box is XMin=187, YMin=43, XMax=209, YMax=117
+  frame #4 is for character #4. Its bounding box is XMin=209, YMin=43, XMax=225, YMax=117
+  frame #5 is for character #5. Its bounding box is XMin=225, YMin=43, XMax=260, YMax=117
+  frame #6 is for character #6. Its bounding box is XMin=260, YMin=43, XMax=284, YMax=117
+  frame #7 is for character #7. Its bounding box is XMin=284, YMin=43, XMax=305, YMax=117
+  frame #8 is for character #8. Its bounding box is XMin=305, YMin=43, XMax=321, YMax=117
+  frame #9 is for character #9. Its bounding box is XMin=321, YMin=43, XMax=348, YMax=117
+  frame #10 is for character #10. Its bounding box is XMin=348, YMin=43, XMax=365, YMax=117
+  frame #11 is for character #11. Its bounding box is XMin=365, YMin=43, XMax=388, YMax=117
+  frame #12 is for character #12. Its bounding box is XMin=388, YMin=43, XMax=426, YMax=117
+  frame #13 is for character #13. Its bounding box is XMin=426, YMin=43, XMax=447, YMax=117
+  frame #14 is for character #14. Its bounding box is XMin=447, YMin=43, XMax=466, YMax=117
+  frame #15 is for character #15. Its bounding box is XMin=466, YMin=43, XMax=482, YMax=117
+  frame #16 is for character #16. Its bounding box is XMin=482, YMin=43, XMax=498, YMax=117
+  frame #17 is for character #17. Its bounding box is XMin=498, YMin=43, XMax=514, YMax=117
+  frame #18 is for character #18. Its bounding box is XMin=514, YMin=43, XMax=546, YMax=117
+  frame #19 is for character #19. Its bounding box is XMin=546, YMin=43, XMax=568, YMax=117
+  frame #20 is for character #20. Its bounding box is XMin=568, YMin=43, XMax=586, YMax=117
+  frame #21 is for character #21. Its bounding box is XMin=586, YMin=43, XMax=603, YMax=117
+  frame #22 is for character #22. Its bounding box is XMin=603, YMin=43, XMax=603, YMax=117
+  frame #23 is for character #-1. Its bounding box is XMin=0, YMin=0, XMax=0, YMax=0
+  --> This is an empty (not valid) frame, so we are skipping it...
+  frame #24 is for character #-1. Its bounding box is XMin=0, YMin=0, XMax=0, YMax=0
+  --> This is an empty (not valid) frame, so we are skipping it...
+--- End of text flow 0 ---
+The enclosing rectangle is: XMIN=100, YMIN=43, XMAX=603, YMAX=117

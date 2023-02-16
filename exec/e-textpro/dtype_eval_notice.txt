@@ -1,0 +1,1650 @@
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Standard Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Ultra fast anti-aliased vector-based graphics
+ * High-quality, super smooth text at any size
+ * D-Type, TrueType, OpenType, Type 1, CFF fonts
+ * Variable and multiple-master font support
+ * Real-time font interpolation (font morphing)
+ * State-of-the-art auto-hinting capabilities
+ * Special effects, transparency, true text outline
+ * Kerning, rotation and fractional pixel positioning
+ * 2D transformations and special text effects
+ * True colour RGB graphics with alpha channels
+ * Renders directly to 8, 16, 24 and 32-bpp bitmaps
+ * Quick and smooth real-time animation
+ * Clean, robust and fully cross-platform API
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Standard Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Power Engine
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Resolution independent text, bitmap and vector graphics
+ * Advanced text layout, graphics and rendering capabilities
+ * Affine and 2D perspective transformations
+ * High quality output with anti-aliasing and sub-pixel precision
+ * A rich selection of PowerDoc objects and properties
+ * Masking PowerDoc objects using alpha-channels
+ * Fast and high quality bitmap image resampling
+ * Rich text support with font embedding
+ * APIs for fully scalable forms, dialogs and user interface
+ * Export to PDF, SVG and bitmap images
+ * Ideal for portable electronic documents and presentations
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Power Engine.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+D-Type Unicode Text Module
+Version 8.2.1.3 (Dec 2020)
+
+Demonstration and Evaluation Only
+
+ * Implicit bidirectional analysis and reordering
+ * Automatic cursor handling, selection highlighting and text editing
+ * A rich set of text styling/formatting attributes
+ * Advanced typography and shaping engine for complex script
+ * Vertical text justification (top, middle, bottom, justified)
+ * Support for standard hyphenation
+ * Automatic text flow across multiple linked textflow areas
+ * Support for non-rectangular text areas
+ * Standard text layout capabilities (line spacing, kerning, justification)
+ * Full support for 3x3 transformation matrices
+ * Available for Windows, Mac OS, Linux, XBox etc.
+
+Visit www.d-type.com or e-mail info@d-type.com to obtain
+your D-Type engine today.
+
+This message does not appear in a fully licensed version
+of D-Type engine.
+---------------------------------------------------------
+
+NOTICE: This is an evaluation version of the above noted
+software. You may use it only for evaluation purposes
+as described in the evaluation agreement. Any other use
+or distribution of this software is strictly prohibited
+and will be prosecuted to the maximum extent possible
+under the law.
+
+This message does not appear in a fully licensed version
+of D-Type Unicode Text Module.
+
+---------------------------------------------------------
+
