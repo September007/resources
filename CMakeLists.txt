@@ -1,4 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
+project(ffmpeg-cmake)
+
+include(cmake/util.cmake)
+include(cmake/ff_name_resolv.cmake)
+option(ENABLE_FF_SHARED "whether or not to build shared ffmpeg" ON)
+option(FF_TARGETS "which ff target will be build,default is all,availiable is avcodec avdevice avfilter avformat avutil postproc swresample swscale" "")
+option(FF_PACK_ROOT "where to install the ffmpeg library and their headers" "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
 
 if("${CMAKE_HOST_SYSTEM_NAME}" STREQUAL "Windows")
     set(Windows ON)
@@ -6,20 +13,16 @@ elseif("${CMAKE_HOST_SYSTEM_NAME}" STREQUAL "Linux")
     set(Linux ON)
 endif()
 
-if(NOT DEFINED FF_LIB_FORM)
-    set(FF_LIB_FORM SHARED) # SHARED OR STATIC
+if(ENABLE_FF_SHARED)
+    set(IF_ENABLE_FF_SHARED --enable-shared)
 endif()
 
-if(NOT DEFINED FF_TARGET_LIBS_ROOT)
-    set(FF_TARGET_LIBS_ROOT ${CMAKE_CURRENT_LIST_DIR}/install/lib ) # root dir to libs
+if("${FF_PACK_ROOT}" STREQUAL "" OR "${FF_PACK_ROOT}" STREQUAL "ON" OR "${FF_PACK_ROOT}" STREQUAL "OFF")
+    set(FF_PACK_ROOT ${CMAKE_BINARY_DIR}/ffmpeg)
 endif()
 
-if(NOT DEFINED FF_TARGET_INCS_ROOT)
-    set(FF_TARGET_INCS_ROOT ${CMAKE_CURRENT_LIST_DIR}/install/include ) # root dir to headers
-endif()
-
-if(NOT DEFINED FF_TARGETS)
-    set(FF_TARGETS          # targets
+if("${FF_TARGETS}" STREQUAL "" OR "${FF_TARGETS}" STREQUAL "ON" OR "${FF_TARGETS}" STREQUAL "OFF")
+    set(FF_TARGETS # targets
         avcodec
         avdevice
         avfilter
@@ -30,96 +33,64 @@ if(NOT DEFINED FF_TARGETS)
         swscale)
 endif()
 
-macro(print)
-    set(sarg HINT) # hint
-    set(marg VARS) # this will be unfounded
-    cmake_parse_arguments(PRINT_ARGS "" "${sarg}" "${marg}" ${ARGN})
+set(FFMPEG_CONFIGURE_OUTPUT
+    "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/config.h"
+    "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/config.asm"
+    "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/config_components.h")
 
-    if(${PRINT_ARGS_HINT})
-        set(MSG "${PRINT_ARGS_HINT}:")
-    else()
-        set(MSG)
-    endif()
-    foreach(var ${PRINT_ARGS_UNPARSED_ARGUMENTS}) # unparsed
-        string(APPEND MSG ${MSG} "|${var}:${${var}}|")
-    endforeach()
-    message("${MSG}")
-endmacro()
+print(CMAKE_RUNTIME_OUTPUT_DIRECTORY CMAKE_BINARY_DIR FFMPEG_CONFIGURE_OUTPUT)
+include(cmake/configure.cmake)
+add_custom_command(OUTPUT ${FFMPEG_CONFIGURE_OUTPUT}
+    COMMAND ${CONFIG_COMMAND}
+    DEPENDS "${CMAKE_CURRENT_LIST_DIR}/cmake/configure.cmake"
+    WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/ffmpeg"
+)
 
-print(FF_TARGETS)
+add_custom_target(ff_configure
+    DEPENDS ${FFMPEG_CONFIGURE_OUTPUT}
+    VERBATIM
+)
 
-# target:avcodec build_type:${CMAKE_BUILD_TYPE} object_type SHARED/RELEASE retName:var to receive result
-macro(name_resolve target build_type object_type retName)
-    if(Windows)
-        set(FF_PREFIX)
-
-        if("${object_type}" STREQUAL "SHARED")
-            set(FF_SUFFIX ".dll")
-        elseif(Linux)
-            set(FF_PREFIX ".lib")
-        endif()
-    elseif(Linux)
-        set(FF_PREFIX "lib")
-
-        if("${object_type}" STREQUAL "SHARED")
-            set(FF_SUFFIX ".so")
-        elseif(Linux)
-            set(FF_PREFIX ".a")
-        endif()
-    endif()
-
-    if(Windows AND NOT "${build_type}" STREQUAL "Release")
-        set(EXTRA_SUFFIX "_d")
-    else()
-        set(EXTRA_SUFFIX)
-    endif()
-
-    set(${retName} "${FF_PREFIX}${target}${EXTRA_SUFFIX}${FF_SUFFIX}")
-endmacro()
-
-# name_resolve(avcodec ${CMAKE_BUILD_TYPE} SHARED avcodec_dll_name)
-# print(avcodec_dll_name)
-
-macro(exists_FF_TARGES destDir retVal)
-    set(${retVal} ON)
-    foreach(FF_TARGET ${FF_TARGETS})
-        name_resolve(${FF_TARGET} ${CMAKE_BUILD_TYPE} ${FF_LIB_FORM} ${FF_TARGET}_name)
-        if(NOT EXISTS "${destDir}/${${FF_TARGET}_name}")
-            set(${retVal} OFF)
-        endif()
-    endforeach()
-endmacro()
-
-macro(ffmpeg_build source_dir build_type )
-
-endmacro()
-
-macro(ffmpeg_clean source_dir)
-endmacro()
-
-macro(ffmpeg_install source_dir lib_dir header_dir)
-endmacro()
-
-
-exists_FF_TARGES(${FF_TARGET_LIBS_ROOT} IS_FF_TARGETS_EXIST)
-if(NOT IS_FF_TARGETS_EXIST)
-
+if(NOT IS_DIRECTORY "${FF_PACK_ROOT}/lib")
+    file(MAKE_DIRECTORY "${FF_PACK_ROOT}/lib")
 endif()
-add_library( avcodec SHARED IMPORTED )
- 
-#指定所添加依赖库的导入路径
-set_target_properties( avcodec PROPERTIES IMPORTED_LOCATION ${ffmpeg_libs_DIR}/libavcodec.so )
- 
-add_library( avfilter SHARED IMPORTED )
-set_target_properties( avfilter PROPERTIES IMPORTED_LOCATION ${ffmpeg_libs_DIR}/libavfilter.so )
- 
-add_library( swresample SHARED IMPORTED )
-set_target_properties( swresample PROPERTIES IMPORTED_LOCATION ${ffmpeg_libs_DIR}/libswresample.so )
- 
-add_library( swscale SHARED IMPORTED )
-set_target_properties( swscale PROPERTIES IMPORTED_LOCATION ${ffmpeg_libs_DIR}/libswscale.so )
- 
-add_library( avformat SHARED IMPORTED )
-set_target_properties( avformat PROPERTIES IMPORTED_LOCATION ${ffmpeg_libs_DIR}/libavformat.so )
- 
-add_library( avutil SHARED IMPORTED )
+
+set(FF_LIB_VER 60)
+
+foreach(FLIB ${FF_TARGETS})
+    ff_name_resolve(${FLIB} ${CMAKE_BUILD_TYPE} SHARED ${FLIB}_NAME OFF)
+    set(${FLIB}_MAKE_TARGET lib${FLIB}/${${FLIB}_NAME})
+
+    set(${FLIB}_TARGET_LIBRARY ${FF_PACK_ROOT}/lib/${${FLIB}_NAME})
+    add_custom_command(
+        OUTPUT "${${FLIB}_TARGET_LIBRARY}"
+        COMMAND "cp" "lib${FLIB}/${${FLIB}_NAME}*" "${FF_PACK_ROOT}/lib/"
+        DEPENDS ff_configure "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/lib${FLIB}/${${FLIB}_NAME}.${FF_LIB_VER}"
+        WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/ffmpeg")
+
+    add_custom_command(
+        OUTPUT "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/lib${FLIB}/${${FLIB}_NAME}.${FF_LIB_VER}"
+        COMMAND "make" "${${FLIB}_MAKE_TARGET}" # this will check source file
+        WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/ffmpeg")
+
+    add_library(ffc_${FLIB} SHARED IMPORTED GLOBAL)
+    set_target_properties(ffc_${FLIB} PROPERTIES
+        IMPORTED_LOCATION "${${FLIB}_TARGET_LIBRARY}")
+    add_library(ffc::${FLIB} ALIAS ffc_${FLIB})
+    set(FF_MAKE_ALL ${FF_MAKE_ALL} ${${FLIB}_TARGET_LIBRARY})
+    set(FF_OUTOUT_TARGETS ${FF_OUTOUT_TARGETS} ffc_${FLIB})
+
+    # print(${FLIB}_MAKE_TARGET HINT FLIB_MAKE_TARGET)
+endforeach()
+
+add_custom_target(ff_makeall
+    DEPENDS ${FF_MAKE_ALL}
+    WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/ffmpeg")
+
+
+# target_include_directories(xx SYSTEM BEFORE PUBLIC ${CMAKE_CURRENT_LIST_DIR}/ffmpeg)
+if(NOT "${CMAKE_SOURCE_DIR}" STREQUAL "${CMAKE_CURRENT_LIST_DIR}")
+    set(FF_OUTOUT_TARGETS ${FF_OUTOUT_TARGETS} PARENT_SCOPE)
+endif()
+
+print(FF_OUTOUT_TARGETS)
