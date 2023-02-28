@@ -75,7 +75,8 @@ foreach(FLIB ${FF_TARGETS})
 
     add_library(ffc_${FLIB} SHARED IMPORTED GLOBAL)
     set_target_properties(ffc_${FLIB} PROPERTIES
-        IMPORTED_LOCATION "${${FLIB}_TARGET_LIBRARY}")
+        IMPORTED_LOCATION "${${FLIB}_TARGET_LIBRARY}"
+        INCLUDE_DIRECTORIES "${CMAKE_CURRENT_LIST_DIR}/ffmpeg")
     add_library(ffc::${FLIB} ALIAS ffc_${FLIB})
     set(FF_MAKE_ALL ${FF_MAKE_ALL} ${${FLIB}_TARGET_LIBRARY})
     set(FF_OUTOUT_TARGETS ${FF_OUTOUT_TARGETS} ffc_${FLIB})
