@@ -2,7 +2,15 @@ set(CONFIG_COMMAND "./configure"
 --extra-libs=\"-lpthread -lm\" 
 ${IF_ENABLE_FF_SHARED}
 --ld=\"g++\" 
+--prefix=\"${CMAKE_BINARY_DIR}/ffmpeg_pack\"
+# debug info
+# https://stackoverflow.com/questions/9211163/debugging-ffmpeg
 --enable-debug=3 # https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#Debugging-Options
+--disable-optimizations
+--extra-cflags=-fno-omit-frame-pointer
+--extra-cflags=-fno-inline
+--extra-cflags=-Og
+
 --enable-gpl 
 --enable-gnutls 
 --enable-libass 
