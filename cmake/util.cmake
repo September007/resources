@@ -1,5 +1,5 @@
 
-macro(print)
+function(print)
     # set(sarg HINT) # hint
     # set(marg VARS) # this will be unfounded
     # cmake_parse_arguments(PRINT_ARGS "" "${sarg}" "${marg}" ${ARGN})
@@ -18,4 +18,4 @@ macro(print)
         string(APPEND MSG ${MSG} "|${var}:${${var}}|")
     endforeach()
     message("${MSG}")
-endmacro()
+endfunction()

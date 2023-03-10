@@ -9,8 +9,9 @@ ${IF_ENABLE_FF_SHARED}
 --disable-optimizations
 --extra-cflags=-fno-omit-frame-pointer
 --extra-cflags=-fno-inline
---extra-cflags=-Og
-
+# --extra-cflags=-Og
+# --extra-ldsoflags="-Wl,-rpath=\\\$ ORIGIN" # \\$$ORIGIN  
+--enable-pic
 --enable-gpl 
 --enable-gnutls 
 --enable-libass 
@@ -25,3 +26,4 @@ ${IF_ENABLE_FF_SHARED}
 #--enable-libfdk-aac 
 #--enable-nonfree 
 )
+message("CONFIG_COMMAND:${CONFIG_COMMAND}")
