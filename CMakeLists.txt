@@ -33,22 +33,23 @@ if("${FF_TARGETS}" STREQUAL "" OR "${FF_TARGETS}" STREQUAL "ON" OR "${FF_TARGETS
         swscale)
 endif()
 
-set(FFMPEG_CONFIGURE_OUTPUT
+set(FFMPEG_CONFIGURE_OUTPUTS
     "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/config.h"
     "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/config.asm"
     "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/config_components.h")
 
-# print(CMAKE_RUNTIME_OUTPUT_DIRECTORY CMAKE_BINARY_DIR FFMPEG_CONFIGURE_OUTPUT)
+# print(CMAKE_RUNTIME_OUTPUT_DIRECTORY CMAKE_BINARY_DIR FFMPEG_CONFIGURE_OUTPUTS)
 include(cmake/configure.cmake)
-add_custom_command(OUTPUT ${FFMPEG_CONFIGURE_OUTPUT}
+add_custom_command(OUTPUT ${FFMPEG_CONFIGURE_OUTPUTS}
     COMMAND ${CONFIG_COMMAND}
     DEPENDS "${CMAKE_CURRENT_LIST_DIR}/cmake/configure.cmake"
     WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/ffmpeg"
+
     # VERBATIM
 )
 
 add_custom_target(ff_configure
-    DEPENDS ${FFMPEG_CONFIGURE_OUTPUT}
+    DEPENDS ${FFMPEG_CONFIGURE_OUTPUTS}
     VERBATIM
 )
 
@@ -66,8 +67,10 @@ foreach(FLIB ${FF_TARGETS})
     print(${FLIB}_TARGET_LIBRARY)
     add_custom_command(
         OUTPUT "${${FLIB}_TARGET_LIBRARY}" # "${${FLIB}_TARGET_LIBRARY}.60"
-        # the relative name 
+
+        # the relative name
         ffmpeg/lib/${${FLIB}_NAME}
+
         # cp -av keep links
         COMMAND "cp" "-av" "lib${FLIB}/${${FLIB}_NAME}*" "${FF_PACK_ROOT}/lib/"
         COMMAND "patchelf" "--set-rpath" "\\$$ORIGIN" "${FF_PACK_ROOT}/lib/${${FLIB}_NAME}"
@@ -76,7 +79,7 @@ foreach(FLIB ${FF_TARGETS})
 
     add_custom_command(
         OUTPUT "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/lib${FLIB}/${${FLIB}_NAME}"
-        COMMAND "make" "${${FLIB}_MAKE_TARGET}" "-j16"# this will check source file
+        COMMAND "make" "${${FLIB}_MAKE_TARGET}" "-j16" # this will check source file
         WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/ffmpeg")
 
     add_library(ffc_${FLIB} SHARED IMPORTED GLOBAL)
@@ -84,13 +87,15 @@ foreach(FLIB ${FF_TARGETS})
         IMPORTED_LOCATION "${${FLIB}_TARGET_LIBRARY}"
         INCLUDE_DIRECTORIES "${CMAKE_CURRENT_LIST_DIR}/ffmpeg"
         IMPORTED_LINK_DEPENDENT_LIBRARIES ${CMAKE_CURRENT_LIST_DIR}/ffmpeg/lib/${${FLIB}_NAME}
+
         # INTERFACE_SYSTEM_INCLUDE_DIRECTORIES "${CMAKE_CURRENT_LIST_DIR}/ffmpeg"
-        )
+    )
     target_include_directories(ffc_${FLIB} SYSTEM BEFORE INTERFACE "${CMAKE_CURRENT_LIST_DIR}/ffmpeg")
     add_library(ffc::${FLIB} ALIAS ffc_${FLIB})
     add_custom_target(custom_target_ffc_${FLIB}
-    DEPENDS  "${${FLIB}_TARGET_LIBRARY}"
+        DEPENDS "${${FLIB}_TARGET_LIBRARY}"
     )
+
     # set(FF_MAKE_ALL ${FF_MAKE_ALL} "${CMAKE_CURRENT_LIST_DIR}/ffmpeg/lib${FLIB}/${${FLIB}_NAME}")
     set(FF_MAKE_ALL ${FF_MAKE_ALL} custom_target_ffc_${FLIB})
     set(FF_OUTOUT_TARGETS ${FF_OUTOUT_TARGETS} ffc_${FLIB})
@@ -103,12 +108,10 @@ add_custom_target(ff_makeall
     COMMAND "patchelf" "--set-rpath" "\\$$ORIGIN" "${FF_PACK_ROOT}/lib/*.so"
     WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/ffmpeg")
 
-
 # target_include_directories(xx SYSTEM BEFORE PUBLIC ${CMAKE_CURRENT_LIST_DIR}/ffmpeg)
 if(NOT "${CMAKE_SOURCE_DIR}" STREQUAL "${CMAKE_CURRENT_LIST_DIR}")
     set(FF_OUTOUT_TARGETS ${FF_OUTOUT_TARGETS} PARENT_SCOPE)
 endif()
-
 
 get_property(sinc TARGET ffc_avcodec PROPERTY INTERFACE_SYSTEM_INCLUDE_DIRECTORIES)
 print(sinc)
