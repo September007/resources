@@ -3,9 +3,19 @@ set(FFMPEG_CONFIGURE_OUTPUTS
     "${FFMPEG_ROOT}/config.h"
 )
 
+function(TransPath_Win2WSL winPath RetPath)
+    string(REGEX REPLACE "[\\]" "/" winPath "${winPath}")
+    execute_process(
+        COMMAND wsl -- wslpath -u "${winPath}"
+        OUTPUT_VARIABLE WSL_PATH
+        OUTPUT_STRIP_TRAILING_WHITESPACE
+    )
+    set(${RetPath} ${WSL_PATH} PARENT_SCOPE)
+endfunction()
+
+
 if(Windows)
     include(msvc_util)
-
     if(USING_MSYS)
         set(CONFIG_COMMAND "./configure"
             --toolchain=msvc
@@ -14,11 +24,13 @@ if(Windows)
             --prefix=${FF_PACK_ROOT}/install
         )
     elseif(USING_WSL)
+        TransPath_Win2WSL("${FF_PACK_ROOT}/install" WinPrefixPath)
         set(CONFIGURE_WSL "./configure.wsl")
         set(CONFIG_COMMAND echo wsl.exe -u lull -- "./configure.wsl"
             --toolchain=msvc
             ${IF_ENABLE_FF_SHARED}
             --extra-cflags=/utf-8
+            --prefix=${WinPrefixPath}
             | cmd /k "${VS_VCVARSALL_BAT}" x64)
 
         get_filename_component(CONFIGURE_WSL_ABS_PATH "${FFMPEG_ROOT}/${CONFIGURE_WSL}" ABSOLUTE)

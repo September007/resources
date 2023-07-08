@@ -86,6 +86,7 @@ endif()
 
 include(configure)
 include(avtarget)
+include(install)
 foreach(FLIB ${FF_TARGETS})
     set_fflib(${FLIB})
     set(FF_MAKE_ALL ${FF_MAKE_ALL} ff_${FLIB})
