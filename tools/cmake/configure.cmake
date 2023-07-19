@@ -20,6 +20,8 @@ if(Windows)
         set(CONFIG_COMMAND "./configure"
             --toolchain=msvc
             ${IF_ENABLE_FF_SHARED}
+            --enable-gpl
+            --disable-doc
             --extra-cflags=/utf-8
             --prefix=${FF_PACK_ROOT}/install
         )
@@ -29,6 +31,8 @@ if(Windows)
         set(CONFIG_COMMAND echo wsl.exe -u lull -- "./configure.wsl"
             --toolchain=msvc
             ${IF_ENABLE_FF_SHARED}
+            --enable-gpl
+            --disable-doc
             --extra-cflags=/utf-8
             --prefix=${WinPrefixPath}
             | cmd /k "${VS_VCVARSALL_BAT}" x64)
