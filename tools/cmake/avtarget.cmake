@@ -139,7 +139,10 @@ function(set_fflib FLIB)
     add_dependencies(ffc_${FLIB} ${FF_PACK_ROOT}/lib/${libfilename} ff_configure)
     
     add_custom_target(ff_${FLIB}
-        DEPENDS ${FF_PACK_ROOT}/lib/${libfilename} 
+        DEPENDS 
+        ${FF_PACK_ROOT}/lib/${libfilename} 
+        ${FF_PACK_ROOT}/bin/lib${FLIB}/${FLIB}-${FLIB_VER}.dll
+        ${FF_PACK_ROOT}/bin/lib${FLIB}/${FLIB}-${FLIB_VER}.pdb
         )
 endfunction()
 
